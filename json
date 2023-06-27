@@ -1,0 +1,20 @@
+Let obj 1 = {name:"person1,age:5};
+let obj 2 = {age:5,name:"person1"};
+
+let obj1 = Object.keys(obj1).sort();
+let obj2 = Object.keys(obj2).sort();
+if (obj1keys.length !== obj2keys.length){
+    console.log("The JSON objects do not have the same properties");
+} else{
+    for (let i=0;i<obj1keys.length;i++){
+        let key = obj1keys[i];
+        if (obj1[key]!==obj2[key]){
+            are false=false;
+            break;
+        }
+    }
+    if (are equal ){
+        console.log("The JSON objects have the same properties");
+    } else {
+        console.log("The JSON objects do not have the same properties");
+    }   
